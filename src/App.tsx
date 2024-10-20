@@ -16,9 +16,7 @@ import YellowStars from "./assets/images/yellow-stars.svg"
 import WhiteStars from "./assets/images/white-stars.svg"
 import Sect6Img from "./assets/images/sect-6-img.svg"
 import LogoWhite from "./assets/images/logo-white.svg"
-import Sect3Img1 from "./assets/images/sect-3-img-1.svg"
 import Sect3Img2 from "./assets/images/sect-3-img-2.svg"
-import Sect3Img3 from "./assets/images/sect-3-img-3.svg"
 import Sect3Img4 from "./assets/images/sect-3-img-4.svg"
 import Sect3Img5 from "./assets/images/sect-3-img-5.svg"
 import { Button } from './components/ui/button'
@@ -87,28 +85,28 @@ function App() {
             <div className='bg-[#FFF6FA] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img1} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Track every account, from every bank, automatically. </p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Track every account, from every bank, automatically.</p>
               </div>
             </div>
 
             <div className='bg-[#FFFDF2] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img2} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Track every account, from every bank, automatically. </p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Get personalized financial insights and advice with our AI advisor – tailored for your goals.</p>
               </div>
             </div>
 
             <div className='bg-[#F5FFF0] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img3} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Track every account, from every bank, automatically. </p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Take control of your spending and stay on track with a personalized budget that works for you.</p>
               </div>
             </div>
 
             <div className='bg-[#F2F5FD] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img4} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Track every account, from every bank, automatically. </p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Reach your financial goals with our goal tracking feature!</p>
               </div>
             </div>
           </div>
@@ -137,17 +135,17 @@ function App() {
               </div>
               <div className=''>
                 <div className='overflow-y-hidden'>
-                  <img className='md:ml-auto  mx-auto md:mx-[unset] -mb-28' src={Sect3Img1} alt="" />
+                  <img className='md:ml-auto  mx-auto md:mx-[unset] w-full' src={Sect6Img} alt="" />
                 </div>
               </div>
 
-              <img src={Coins} className='absolute md:-left-6 lg:-left-12 -bottom-20 hidden lg:block w-20 sm:w-24 md:w-24 lg:w-36 xl:w-44' alt="" />
+              <img src={Coins} className='absolute md:-left-6 lg:-left-12 -bottom-28 hidden lg:block w-20 sm:w-24 md:w-24 lg:w-36 xl:w-44' alt="" />
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-between'>
               <div className='order-2 md:order-1 relative'>
                 <div className='overflow-y-hidden'>
-                  <img className='md:mr-auto mx-auto md:mx-[unset] -mb-32' src={Sect3Img2} alt="" />
+                  <img className='md:mr-auto mx-auto md:mx-[unset] -mb-44' src={Sect3Img2} alt="" />
                 </div>
 
                 <img src={Sect3Img4} alt="" className='absolute hidden lg:block lg:-bottom-10 xl:-bottom-4 left-0 w-20 sm:w-24 md:w-24 lg:w-36 xl:w-44' />
@@ -192,7 +190,7 @@ function App() {
               </div>
               <div className='relative'>
                 <div className='overflow-y-hidden'>
-                  <img className='md:ml-auto mx-auto md:mx-[unset] -mb-28' src={Sect3Img3} alt="" />
+                  <img className='md:ml-auto mx-auto md:mx-[unset] -mb-28' src={Sect3Img2} alt="" />
                 </div>
 
                 <img src={Sect3Img5} alt="" className='absolute hidden lg:block lg:-bottom-10 xl:-bottom-4 right-0 w-20 sm:w-24 md:w-24 lg:w-36 xl:w-44' />
@@ -302,12 +300,12 @@ function App() {
 
                 <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
 
-                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
+                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
 
                   <svg className='w-2 sm:w-2.5 md:w-3 lg:w-3.5' viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
-                    <path d="M1 7.40119H13.1333" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
+                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
+                    <path d="M1 7.40119H13.1333" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
                   </svg>
                 </div>
 
@@ -407,12 +405,12 @@ function App() {
 
                 <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
 
-                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
+                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
 
                   <svg className='w-2 sm:w-2.5 md:w-3 lg:w-3.5' viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
-                    <path d="M1 7.40119H13.1333" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
+                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
+                    <path d="M1 7.40119H13.1333" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
                   </svg>
                 </div>
 
@@ -542,12 +540,12 @@ function App() {
 
                 <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
 
-                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
+                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
 
                   <svg className='w-2 sm:w-2.5 md:w-3 lg:w-3.5' viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
-                    <path d="M1 7.40119H13.1333" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
+                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
+                    <path d="M1 7.40119H13.1333" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
                   </svg>
                 </div>
 
@@ -650,12 +648,12 @@ function App() {
 
                 <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
 
-                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
+                <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
 
                   <svg className='w-2 sm:w-2.5 md:w-3 lg:w-3.5' viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
-                    <path d="M1 7.40119H13.1333" stroke="#161C2D" stroke-width="2" stroke-linecap="square" stroke-linejoin="bevel" />
+                    <path d="M7.93311 2L13.9998 7.63333L7.93311 13.2667" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
+                    <path d="M1 7.40119H13.1333" stroke="#161C2D" strokeWidth="2" strokeLinecap="square" strokeLinejoin="bevel" />
                   </svg>
                 </div>
 
@@ -791,10 +789,10 @@ function App() {
         <footer className='bg-[#1C1D21] py-2 sm:py-3 md:py-4 lg:py-5 xl:py-6 px-6 sm:px-14 md:px-16 lg:px-20 xl:px-24'>
           <img src={LogoWhite} className='w-24 sm:w-28 md:w-32 lg:w-36 xl:w-40 mx-auto' alt="" />
           <ul className='flex items-center gap-2 md:ga-3 lg:gap-4 text-white text-[0.6rem] sm:text-xs md:text-sm lg:text-base justify-center my-4 sm:my-5 md:my-6 lg:my-7 xl:my-8'>
-            <li>FAQ</li>
-            <li>Privacy Policy</li>
-            <li>Pricing</li>
-            <li>Contact</li>
+            <li className='cursor-pointer'>FAQ</li>
+            <li className='cursor-pointer'>Privacy Policy</li>
+            <li className='cursor-pointer'>Pricing</li>
+            <li className='cursor-pointer'>Contact</li>
           </ul>
           <hr />
           <div className='flex items-center gap-3 justify-between mt-3 sm:mt-4 md:mt-5 lg:mt-6'>
