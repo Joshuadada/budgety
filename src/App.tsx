@@ -25,7 +25,7 @@ import { Switch } from './components/ui/switch'
 import { useState } from 'react'
 
 function App() {
-  const [planType, setPlanType] = useState<'monthly' | 'yearly'>('monthly');
+  const [planType, setPlanType] = useState<'monthly' | 'yearly'>('yearly');
 
   const togglePlanType = (e: boolean) => {
     if (e) setPlanType('yearly')
@@ -282,7 +282,7 @@ function App() {
           <h4 className='text-center text-[#FCCF51] font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>Pricing</h4>
           <div className="flex items-center justify-center gap-0.5 sm:gap-1.5 md:gap-2.5 lg:gap-3.5 text-white text-xs sm:text-sm md:text-base lg:text-lg mt-2 sm:mt-4 md:mt-6 lg:mt-9 xl:mt-11 font-campton">
             <span>Monthly</span>
-            <Switch onCheckedChange={togglePlanType} id="airplane-mode" />
+            <Switch onCheckedChange={togglePlanType} checked={planType === 'yearly'} id="airplane-mode" />
             <span>Yearly</span>
           </div>
 
@@ -399,7 +399,7 @@ function App() {
               <div className='mt-4 sm:mt-6 md:mt-8 lg:mt-10'>
                 <h3 className='text-[#161C2D] '>
                   <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CAD</span>
-                  <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>10.99</span>
+                  <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>9.99</span>
                   <span className='text-xs sm:text-sm md:text-base lg:text-lg'>/ Monthly</span>
                 </h3>
 
@@ -415,14 +415,6 @@ function App() {
                 </div>
 
                 <div className='flex flex-col gap-1 sm:gap-2 md:gap-3 lg:gap-4 mt-2 sm:mt-4 md:mt-6 lg:mt-8'>
-                  <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
-                    <svg className='w-2.5 sm:w-3 md:w-3.5 lg:w-4' viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
-                    </svg>
-
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>(all prices in CAD)</p>
-                  </div>
-
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
                     <svg className='w-2.5 sm:w-3 md:w-3.5 lg:w-4' viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
@@ -642,7 +634,7 @@ function App() {
               <div className='mt-4 sm:mt-6 md:mt-8 lg:mt-10'>
                 <h3 className='text-[#161C2D] '>
                   <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CAD</span>
-                  <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>10.99</span>
+                  <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>9.99</span>
                   <span className='text-xs sm:text-sm md:text-base lg:text-lg'>/ yearly</span>
                 </h3>
 
@@ -658,14 +650,6 @@ function App() {
                 </div>
 
                 <div className='flex flex-col gap-1 sm:gap-2 md:gap-3 lg:gap-4 mt-2 sm:mt-4 md:mt-6 lg:mt-8'>
-                  <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
-                    <svg className='w-2.5 sm:w-3 md:w-3.5 lg:w-4' viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
-                    </svg>
-
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>(all prices in CAD)</p>
-                  </div>
-
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
                     <svg className='w-2.5 sm:w-3 md:w-3.5 lg:w-4' viewBox="0 0 17 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
