@@ -50,7 +50,7 @@ function App() {
           <section className='grid grid-cols-1 md:grid-cols-2 items-center gap-3 mt-5 sm:mt-6 md:mt-8 lg:mt-12 xl:mt-16 relative'>
             <div>
               <h3 className='font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>The best budgeting app in Canada </h3>
-              <p className='text-sm sm:text-base md:text-lg lg:text-xl font-bold mt-4 sm:mt-5 md:mt-7 lg:mt-9 xl:mt-11'>Download</p>
+              <p className='text-sm sm:text-base md:text-lg lg:text-xl font-bold mt-4 sm:mt-5 md:mt-7 lg:mt-9 xl:mt-11 font-camptonSemibold'>Download</p>
 
               <div className='flex items-center gap-1 md:gap-2 lg:gap-3 mt-1 sm:mt-2 lg:mt-3'>
                 <img className='cursor-pointer w-20 md:w-24 lg:w-28 xl:w-32' src={PlayStore} alt="" />
@@ -60,8 +60,8 @@ function App() {
               <div className='flex items-center gap-1 sm:gap-1.5 md:gap-2 lg:gap-2.5 mt-4 sm:mt-5 md:mt-6 lg:mt-7'>
                 <img src={AvartarGroup} className='w-28 sm:w-32 md:w-36 lg:w-40' alt="" />
                 <div>
-                  <h4 className='text-base sm:text-lg md:text-xl lg:text-2xl font-semibold'>10,000+</h4>
-                  <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Downloads</p>
+                  <h4 className='text-base sm:text-lg md:text-xl lg:text-2xl font-semibold font-camptonSemibold'>10,000+</h4>
+                  <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-camptonMedium'>Downloads</p>
                 </div>
               </div>
             </div>
@@ -85,28 +85,28 @@ function App() {
             <div className='bg-[#FFF6FA] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img1} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Track every account, from every bank, automatically.</p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold font-camptonSemibold'>Track every account, from every bank, automatically.</p>
               </div>
             </div>
 
             <div className='bg-[#FFFDF2] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img2} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Get personalized financial insights and advice with our AI advisor – tailored for your goals.</p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold font-camptonSemibold'>Get personalized financial insights and advice with our AI advisor – tailored for your goals.</p>
               </div>
             </div>
 
             <div className='bg-[#F5FFF0] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img3} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Take control of your spending and stay on track with a personalized budget that works for you.</p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold font-camptonSemibold'>Take control of your spending and stay on track with a personalized budget that works for you.</p>
               </div>
             </div>
 
             <div className='bg-[#F2F5FD] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
               <img src={Sect2Img4} className='w-full' alt="" />
               <div className='py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11'>
-                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold'>Reach your financial goals with our goal tracking feature!</p>
+                <p className='text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold font-camptonSemibold'>Reach your financial goals with our goal tracking feature!</p>
               </div>
             </div>
           </div>
@@ -123,13 +123,13 @@ function App() {
 
                 <ul className='text-white ml-5 mt-4 sm:mt-4 md:mt-5 lg:mt-6'>
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Sync with your bank accounts easily</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>With this feature, you can sync multiple accounts with ease! Whether savings, checking, credit or investment. We have you covered!</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Sync with your bank accounts easily</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>With this feature, you can sync multiple accounts with ease! Whether savings, checking, credit or investment. We have you covered!</p>
                   </div>
 
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Set up multi currency accounts</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>If you transact with more than one currency then this feature is for you! Create and track accounts with different currencies!</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Set up multi currency accounts</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>If you transact with more than one currency then this feature is for you! Create and track accounts with different currencies!</p>
                   </div>
                 </ul>
               </div>
@@ -155,18 +155,18 @@ function App() {
 
                 <ul className='text-white ml-5 mt-4 sm:mt-4 md:mt-5 lg:mt-6'>
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Record your transactions easily whether manually or automatically</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>Don’t stress, let’s help you automatically record your repeated expenses like your rent or mortgage</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Record your transactions easily whether manually or automatically</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>Don’t stress, let’s help you automatically record your repeated expenses like your rent or mortgage</p>
                   </div>
 
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Multi-currency transaction tracking</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>We are an inclusive app! If you spend in USD and CAD for example, you can track transactions in more than one currency!</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Multi-currency transaction tracking</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>We are an inclusive app! If you spend in USD and CAD for example, you can track transactions in more than one currency!</p>
                   </div>
 
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Choose or create your own categories</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>Personalize your experience, you can add your own transaction categories or make use of our preset categories.</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Choose or create your own categories</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>Personalize your experience, you can add your own transaction categories or make use of our preset categories.</p>
                   </div>
                 </ul>
               </div>
@@ -178,13 +178,13 @@ function App() {
 
                 <ul className='text-white ml-5 mt-4 sm:mt-4 md:mt-5 lg:mt-6'>
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Create a budget for anything you want</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>We are your accountability partner. Let us help you stick to your budget with our Add Budget feature!</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Create a budget for anything you want</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>We are your accountability partner. Let us help you stick to your budget with our Add Budget feature!</p>
                   </div>
 
                   <div>
-                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg'>Get notified when you're close to exceeding your budget</li>
-                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5'>Spending more than you planned for? Not on our watch! Trust us to help you stick to your budget.</p>
+                    <li className='list-disc font-semibold text-xs sm:text-sm md:text-base lg:text-lg font-camptonSemibold'>Get notified when you're close to exceeding your budget</li>
+                    <p className='text-[0.6rem] sm:text-xs md:text-sm lg:text-base mt-1 sm:mt-1.5 md:mt-2 lg:mt-2.5 font-campton'>Spending more than you planned for? Not on our watch! Trust us to help you stick to your budget.</p>
                   </div>
                 </ul>
               </div>
@@ -233,41 +233,41 @@ function App() {
                 <CarouselItem>
                   <div>
                     <img src={WhiteStars} className='w-16 sm:w-20 md:w-24 lg:w-28 mx-auto' alt="" />
-                    <p className='text-center text-[#000000] font-medium text-base sm:text-lg md:text-xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 lg:mt-6'>
+                    <p className='text-center text-[#000000] font-medium text-base sm:text-lg md:text-xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 lg:mt-6 font-camptonMedium'>
                       “I've tried a few budgeting apps, but Budgety's the only
                       one that's really worked for me. It's easy to use, and it's
                       actually helped me save some money.
                       I finally feel like I'm in control of my finances!”
                     </p>
 
-                    <p className='text-[#000000] font-semibold text-center mt-3 sm:mt-4 md:mt-5 lg:mt-6'>David K</p>
+                    <p className='text-[#000000] font-semibold text-center mt-3 sm:mt-4 md:mt-5 lg:mt-6 font-camptonSemibold'>David K</p>
                   </div>
                 </CarouselItem>
 
                 <CarouselItem>
                   <div>
                     <img src={WhiteStars} className='w-16 sm:w-20 md:w-24 lg:w-28 mx-auto' alt="" />
-                    <p className='text-center text-[#000000] font-medium text-base sm:text-lg md:text-xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 lg:mt-6'>
+                    <p className='text-center text-[#000000] font-medium text-base sm:text-lg md:text-xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 lg:mt-6 font-camptonMedium'>
                       “Budgety's been a lifesaver for me. I was struggling
                       to keep track of my expenses, but now I can see everything in one place.
                       And the fact that it connects to my Canadian bank accounts
                       automatically? Game-changer.”
                     </p>
 
-                    <p className='text-[#000000] font-semibold text-center mt-3 sm:mt-4 md:mt-5 lg:mt-6'>Emily R.</p>
+                    <p className='text-[#000000] font-semibold text-center mt-3 sm:mt-4 md:mt-5 lg:mt-6 font-camptonSemibold'>Emily R.</p>
                   </div>
                 </CarouselItem>
 
                 <CarouselItem>
                   <div>
                     <img src={WhiteStars} className='w-16 sm:w-20 md:w-24 lg:w-28 mx-auto' alt="" />
-                    <p className='text-center text-[#000000] font-medium text-base sm:text-lg md:text-xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 lg:mt-6'>
+                    <p className='text-center text-[#000000] font-medium text-base sm:text-lg md:text-xl lg:text-2xl mt-3 sm:mt-4 md:mt-5 lg:mt-6 font-camptonMedium'>
                       “After searching for many budgeting apps for Canada,
                       all I can say is Budgety is the best budgeting app in Canada.
                       Don’t just take my word for it, give them a try and see for yourself”
                     </p>
 
-                    <p className='text-[#000000] font-semibold text-center mt-3 sm:mt-4 md:mt-5 lg:mt-6'>Mark C.</p>
+                    <p className='text-[#000000] font-semibold text-center mt-3 sm:mt-4 md:mt-5 lg:mt-6 font-camptonSemibold'>Mark C.</p>
                   </div>
                 </CarouselItem>
               </CarouselContent>
@@ -280,7 +280,7 @@ function App() {
         {/* Section Five */}
         <section className='bg-[#1C1D21] py-4 sm:py-6 md:py-8 lg:py-10 px-6 sm:px-16 md:px-24 lg:px-32 xl:px-40'>
           <h4 className='text-center text-[#FCCF51] font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>Pricing</h4>
-          <div className="flex items-center justify-center gap-0.5 sm:gap-1.5 md:gap-2.5 lg:gap-3.5 text-white text-xs sm:text-sm md:text-base lg:text-lg mt-2 sm:mt-4 md:mt-6 lg:mt-9 xl:mt-11">
+          <div className="flex items-center justify-center gap-0.5 sm:gap-1.5 md:gap-2.5 lg:gap-3.5 text-white text-xs sm:text-sm md:text-base lg:text-lg mt-2 sm:mt-4 md:mt-6 lg:mt-9 xl:mt-11 font-campton">
             <span>Monthly</span>
             <Switch onCheckedChange={togglePlanType} id="airplane-mode" />
             <span>Yearly</span>
@@ -293,12 +293,12 @@ function App() {
 
               <div className='mt-4 sm:mt-6 md:mt-8 lg:mt-10'>
                 <h3 className='text-[#161C2D] '>
-                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CA$</span>
+                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CAD</span>
                   <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>5.99</span>
                   <span className='text-xs sm:text-sm md:text-base lg:text-lg'>/ Monthly</span>
                 </h3>
 
-                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
+                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5 font-campton'>billed monthly</p>
 
                 <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
@@ -315,7 +315,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Manually Track income, expenses, and savings easily</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Manually Track income, expenses, and savings easily</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -323,7 +323,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Create budgets, set limits, and get notified when you hit your limits.</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Create budgets, set limits, and get notified when you hit your limits.</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -331,7 +331,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add & view multiple checking, savings & cash accounts in one place.</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add & view multiple checking, savings & cash accounts in one place.</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -339,7 +339,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Set up multiple accounts in one or more currencies"</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Set up multiple accounts in one or more currencies</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -347,7 +347,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Automate recurring transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Automate recurring transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -355,7 +355,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Get deeper insights into your finances</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Get deeper insights into your finances</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -363,7 +363,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add personalized notes to your transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add personalized notes to your transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -371,7 +371,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Your data is private and secure"</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Your data is private and secure</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -379,7 +379,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Support available 24/7"</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Support available 24/7</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -387,7 +387,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>No Ads</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>No Ads</p>
                   </div>
                 </div>
               </div>
@@ -398,12 +398,12 @@ function App() {
 
               <div className='mt-4 sm:mt-6 md:mt-8 lg:mt-10'>
                 <h3 className='text-[#161C2D] '>
-                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CA$</span>
+                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CAD</span>
                   <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>10.99</span>
                   <span className='text-xs sm:text-sm md:text-base lg:text-lg'>/ Monthly</span>
                 </h3>
 
-                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
+                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5 font-campton'>billed monthly</p>
 
                 <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
@@ -420,7 +420,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>(all prices in CAD)</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>(all prices in CAD)</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -428,7 +428,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Connect all of your accounts and track your transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Connect all of your accounts and track your transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -436,7 +436,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Manually Track income, expenses, and savings easily</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Manually Track income, expenses, and savings easily</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -444,7 +444,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Create budgets, set limits, and get notified when you hit your limits</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Create budgets, set limits, and get notified when you hit your limits</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -452,7 +452,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add & view multiple checking, savings & cash accounts in one place</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add & view multiple checking, savings & cash accounts in one place</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -460,7 +460,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add your own categories</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add your own categories</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -468,7 +468,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Set up multiple accounts in one or more currencies</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Set up multiple accounts in one or more currencies</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -476,7 +476,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Automate recurring transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Automate recurring transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -484,7 +484,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Get deeper insights into your finances</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Get deeper insights into your finances</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -492,7 +492,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add personalized notes to your transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add personalized notes to your transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -500,7 +500,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Your data is private and secure</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Your data is private and secure</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -508,7 +508,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Support available 24/7</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Support available 24/7</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -516,7 +516,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>No Ads</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>No Ads</p>
                   </div>
                 </div>
               </div>
@@ -528,17 +528,17 @@ function App() {
             <div className='py-2 sm:py-4 md:py-6 lg:py-8 px-6 sm:px-8 md:px-10 lg:px-12 bg-white border border-[#E7E9ED] rounded-sm md:rounded-md lg:rounded-lg'>
               <div className='flex items-center justify-between gap-3'>
                 <h4 className='uppercase text-[#161C2D] font-bold text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm'>Basic Plan</h4>
-                <div className='text-[#FFA500] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm bg-[#FEC734] font-bold rounded-sm sm:rounded-md md:rounded-lg lg:rounded-xl xl:rounded-2xl px-2 md:px-3 lg:px-4 py-0.5 md:py-1 lg:py-1.5'>Save $5</div>
+                <div className='text-[#FFA500] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm bg-[#FEC734] bg-opacity-10 font-bold rounded-sm sm:rounded-md md:rounded-lg lg:rounded-xl xl:rounded-2xl px-2 md:px-3 lg:px-4 py-0.5 md:py-1 lg:py-1.5'>Save $5</div>
               </div>
 
               <div className='mt-4 sm:mt-6 md:mt-8 lg:mt-10'>
                 <h3 className='text-[#161C2D] '>
-                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CA$</span>
+                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CAD</span>
                   <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>5.99</span>
                   <span className='text-xs sm:text-sm md:text-base lg:text-lg'>/ yearly</span>
                 </h3>
 
-                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
+                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5 font-campton'>billed annually</p>
 
                 <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
@@ -555,7 +555,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Manually Track income, expenses, and savings easily</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Manually Track income, expenses, and savings easily</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -563,7 +563,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Create budgets, set limits, and get notified when you hit your limits.</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Create budgets, set limits, and get notified when you hit your limits.</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -571,7 +571,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add & view multiple checking, savings & cash accounts in one place.</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add & view multiple checking, savings & cash accounts in one place.</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -579,7 +579,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Set up multiple accounts in one or more currencies"</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Set up multiple accounts in one or more currencies</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -587,7 +587,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Automate recurring transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Automate recurring transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -595,7 +595,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Get deeper insights into your finances</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Get deeper insights into your finances</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -603,7 +603,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add personalized notes to your transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add personalized notes to your transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -611,7 +611,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Your data is private and secure"</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Your data is private and secure</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -619,7 +619,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Support available 24/7"</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Support available 24/7</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -627,7 +627,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>No Ads</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>No Ads</p>
                   </div>
                 </div>
               </div>
@@ -636,17 +636,17 @@ function App() {
             <div className='py-2 sm:py-4 md:py-6 lg:py-8 px-6 sm:px-8 md:px-10 lg:px-12 bg-white border border-[#E7E9ED] rounded-sm md:rounded-md lg:rounded-lg'>
               <div className='flex items-center justify-between gap-3'>
                 <h4 className='uppercase text-[#161C2D] font-bold text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm'>Premium Plan</h4>
-                <div className='text-[#FFA500] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm bg-[#FEC734] font-bold rounded-sm sm:rounded-md md:rounded-lg lg:rounded-xl xl:rounded-2xl px-2 md:px-3 lg:px-4 py-0.5 md:py-1 lg:py-1.5'>Save $32</div>
+                <div className='text-[#FFA500] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm bg-[#FEC734] bg-opacity-10 font-bold rounded-sm sm:rounded-md md:rounded-lg lg:rounded-xl xl:rounded-2xl px-2 md:px-3 lg:px-4 py-0.5 md:py-1 lg:py-1.5'>Save $32</div>
               </div>
 
               <div className='mt-4 sm:mt-6 md:mt-8 lg:mt-10'>
                 <h3 className='text-[#161C2D] '>
-                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CA$</span>
+                  <span className='font-bold text-sm sm:text-base md:text-lg lg:text-xl'>CAD</span>
                   <span className='font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl'>10.99</span>
                   <span className='text-xs sm:text-sm md:text-base lg:text-lg'>/ yearly</span>
                 </h3>
 
-                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5'>billed annually</p>
+                <p className='text-[#161C2D] mt-0.5 sm:mt-1.5 md:mt-2.5 lg:mt-3.5 font-campton'>billed annually</p>
 
                 <div className='flex items-center bg-[#FDD961] max-w-64 gap-3 justify-between cursor-pointer px-2 sm:px-3 md:px-4 lg:px-5 py-1.5 md:py-2.5 lg:py-3.5 rounded-sm md:rounded-md mt-1 sm:mt-2 md:mt-3 lg:mt-4'>
                   <p className='text-[#161C2D] font-bold text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Start 14 days Free Trial</p>
@@ -663,7 +663,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>(all prices in CAD)</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>(all prices in CAD)</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -671,7 +671,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Connect all of your accounts and track your transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Connect all of your accounts and track your transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -679,7 +679,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Manually Track income, expenses, and savings easily</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Manually Track income, expenses, and savings easily</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -687,7 +687,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Create budgets, set limits, and get notified when you hit your limits</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Create budgets, set limits, and get notified when you hit your limits</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -695,7 +695,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add & view multiple checking, savings & cash accounts in one place</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add & view multiple checking, savings & cash accounts in one place</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -703,7 +703,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add your own categories</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add your own categories</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -711,7 +711,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Set up multiple accounts in one or more currencies</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Set up multiple accounts in one or more currencies</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -719,7 +719,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Automate recurring transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Automate recurring transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -727,7 +727,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Get deeper insights into your finances</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Get deeper insights into your finances</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -735,7 +735,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Add personalized notes to your transactions</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Add personalized notes to your transactions</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -743,7 +743,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Your data is private and secure</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Your data is private and secure</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -751,7 +751,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>Support available 24/7</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>Support available 24/7</p>
                   </div>
 
                   <div className='flex items-center gap-1 md:gap-2 lg:gap-3'>
@@ -759,7 +759,7 @@ function App() {
                       <path d="M6.20704 11.8846C5.91354 11.8846 5.62062 11.7744 5.39648 11.5535L0 6.23421L1.62112 4.63571L6.20704 9.15603L15.3789 0.115385L17 1.71388L7.0176 11.5535C6.79347 11.7744 6.50054 11.8846 6.20704 11.8846Z" fill="#68D585" />
                     </svg>
 
-                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base'>No Ads</p>
+                    <p className='text-[#161C2D] text-[0.6rem] sm:text-xs md:text-sm lg:text-base font-campton'>No Ads</p>
                   </div>
                 </div>
               </div>
@@ -772,7 +772,7 @@ function App() {
           <div className='grid grid-cols-1 md:grid-cols-2 items-center bg-[#FEC734] md:pl-14 lg:pl-16 xl:pl-20 rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden'>
             <div className='py-4 sm:py-6 md:py-0 px-6 sm:px-8 md:px-0'>
               <h4 className='font-bold xl sm:text-2xl md:texxt-3xl lg:text-4xl xl:text-5xl'>Take control of your finances</h4>
-              <p className='text-[#161C2D] text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium mt-2 sm:mt-3 md:mt-4 lg:mt-5 xl:mt-6'>Download the best budgeting app in Canada</p>
+              <p className='text-[#161C2D] text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-medium mt-2 sm:mt-3 md:mt-4 lg:mt-5 xl:mt-6 font-camptonMedium'>Download the best budgeting app in Canada</p>
               <div className='flex items-center gap-1 md:gap-2 lg:gap-3 mt-2 sm:mt-3 md:mt-4 lg:mt-5 xl:mt-6'>
                 <img className='cursor-pointer w-20 md:w-24 lg:w-28 xl:w-32' src={PlayStore} alt="" />
                 <img className='cursor-pointer w-20 md:w-24 lg:w-28 xl:w-32' src={AppleStore} alt="" />
@@ -796,7 +796,7 @@ function App() {
           </ul>
           <hr />
           <div className='flex items-center gap-3 justify-between mt-3 sm:mt-4 md:mt-5 lg:mt-6'>
-            <p className='text-[#FFFFFF] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm'>&copy;{new Date().getFullYear()} Budgety</p>
+            <p className='text-[#FFFFFF] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm font-campton'>&copy;{new Date().getFullYear()} Budgety</p>
 
             <div className='flex items-center gap-2 sm:gap-3 md:gap-4 lg:gap-5 '>
               <svg className='cursor-pointer w-1.5 md:w-2 lg:w-2.5' viewBox="0 0 10 21" fill="none" xmlns="http://www.w3.org/2000/svg">

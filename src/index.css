@@ -1,4 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'PPGoshaSans'; /* Name to reference the font */
+  src: url('./assets/fonts/PPGoshaSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Campton'; /* Name to reference the font */
+  src: url('./assets/fonts/CamptonBook.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Campton-medium'; /* Name to reference the font */
+  src: url('./assets/fonts/CamptonMedium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Campton-semibold'; /* Name to reference the font */
+  src: url('./assets/fonts/CamptonSemiBold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -62,15 +89,10 @@
 
 @layer base {
   * {
-    @apply border-border;
-    font-family: "PT Sans", sans-serif;
+    @apply border-border font-gocha;
   }
 
   body {
     @apply bg-background text-foreground;
-  }
-
-  .font-campton {
-    
   }
 }
