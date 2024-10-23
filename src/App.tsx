@@ -5,7 +5,7 @@ import AppleStore from "./assets/images/apple-store.svg"
 import AvartarGroup from "./assets/images/avartar-group.svg"
 import HeroImg from "./assets/images/hero-img.svg"
 import MoneyBag from "./assets/images/money-bag.svg"
-import SavingMoney from "./assets/images/saving-money.svg"
+import SavingMoney from "./assets/images/saving-money.gif"
 import SunArrow from "./assets/images/sun-arrow.svg"
 import Coins from "./assets/images/coins.svg"
 import Sect2Img1 from "./assets/images/sect-2-img-1.svg"
@@ -16,6 +16,7 @@ import YellowStars from "./assets/images/yellow-stars.svg"
 import WhiteStars from "./assets/images/white-stars.svg"
 import Sect6Img from "./assets/images/sect-6-img.svg"
 import LogoWhite from "./assets/images/logo-white.svg"
+import Sect3Img1 from "./assets/images/sect-3-img-1.svg"
 import Sect3Img2 from "./assets/images/sect-3-img-2.svg"
 import Sect3Img4 from "./assets/images/sect-3-img-4.svg"
 import Sect3Img5 from "./assets/images/sect-3-img-5.svg"
@@ -72,7 +73,7 @@ function App() {
               <img src={MoneyBag} className='w-28 sm:w-36 md:w-44 lg:w-52 absolute -bottom-1 md:-bottom-5 right-0' alt="" />
             </div>
 
-            <img src={SavingMoney} className='absolute -bottom-6 md:-bottom-8 lg:-bottom-10 translate-x-1/2 right-1/2 w-36 sm:w-44 md:w-52 lg:w-56' alt="" />
+            <img src={SavingMoney} className='absolute -bottom-12 sm:-bottom-16 md:bottom-[-5.5rem] lg:-bottom-28 translate-x-1/2 right-1/2 w-32 sm:w-40 md:w-48 lg:w-56 transform scale-x-[-1]' alt="" />
             <img src={Coins} className='absolute -bottom-2 md:-bottom-6 lg:-bottom-8 -left-2 sm:-left-8 md:-left-16 lg:-left-20 xl:-left-24 w-20 sm:w-24 md:w-24 lg:w-36 xl:w-44' alt="" />
           </section>
         </div>
@@ -135,11 +136,11 @@ function App() {
               </div>
               <div className=''>
                 <div className='overflow-y-hidden'>
-                  <img className='md:ml-auto  mx-auto md:mx-[unset] w-full' src={Sect6Img} alt="" />
+                  <img className='md:ml-auto  mx-auto md:mx-[unset] w-full -mb-48' src={Sect3Img1} alt="" />
                 </div>
               </div>
 
-              <img src={Coins} className='absolute md:-left-6 lg:-left-12 -bottom-28 hidden lg:block w-20 sm:w-24 md:w-24 lg:w-36 xl:w-44' alt="" />
+              <img src={Coins} className='absolute md:-left-6 lg:-left-1 lg:-bottom-28 xl:-bottom-28 2xl:-bottom-4 hidden lg:block w-20 sm:w-24 md:w-24 lg:w-40 xl:w-56 2xl:w-64' alt="" />
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-between'>
