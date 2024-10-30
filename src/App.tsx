@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="h-screen overflow-y-auto">
-      <div className="max-w-[1600px] mx-auto bg-[#FAFAFA] h-full">
+      <div className="max-w-[2000px] mx-auto bg-[#FAFAFA] h-full">
         {/* Section One */}
         <div className="bg-gradient-to-tr from-[#FCCC4C] to-[#F8A307] px-6 sm:px-10 md:px-16 lg:px-20 xl:px-28 py-2 sm:py-5 md:py-6 lg:py-8 xl:py-9 overflow-hidden">
           <header className="flex items-center justify-between">
