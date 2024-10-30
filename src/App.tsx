@@ -998,7 +998,7 @@ function App() {
                     Save $25
                   </div>
                 </div>
-{/* #it is well o */}
+                {/* #it is well o */}
                 <div className="mt-4 sm:mt-6 md:mt-8 lg:mt-10">
                   <h3 className="text-[#161C2D] ">
                     <span className="font-bold text-sm sm:text-base md:text-lg lg:text-xl">
