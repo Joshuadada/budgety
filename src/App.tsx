@@ -70,7 +70,7 @@ function App() {
           <section className="grid grid-cols-1 md:grid-cols-2 items-center gap-3 mt-5 sm:mt-6 md:mt-8 lg:mt-12 xl:mt-16 relative">
             <div>
               <h3 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl max-w-[560px]">
-                The Best Budgeting App in Canada{" "}
+                The Best Budgeting App In Canada{" "}
               </h3>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl font-bold mt-4 sm:mt-5 md:mt-7 lg:mt-9 xl:mt-11 font-camptonSemibold">
                 Download
@@ -995,7 +995,7 @@ function App() {
                     Basic Plan
                   </h4>
                   <div className="text-[#FFA500] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm bg-[#FEC734] bg-opacity-10 font-bold rounded-sm sm:rounded-md md:rounded-lg lg:rounded-xl xl:rounded-2xl px-2 md:px-3 lg:px-4 py-0.5 md:py-1 lg:py-1.5">
-                    Save $5
+                    Save $25
                   </div>
                 </div>
 
@@ -1005,7 +1005,7 @@ function App() {
                       CAD
                     </span>
                     <span className="font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl">
-                      67.99
+                      46.99
                     </span>
                     <span className="text-xs sm:text-sm md:text-base lg:text-lg">
                       / yearly
@@ -1236,7 +1236,7 @@ function App() {
                     Premium Plan
                   </h4>
                   <div className="text-[#FFA500] text-[0.5rem] sm:text-[0.6rem] md:text-xs lg:text-sm bg-[#FEC734] bg-opacity-10 font-bold rounded-sm sm:rounded-md md:rounded-lg lg:rounded-xl xl:rounded-2xl px-2 md:px-3 lg:px-4 py-0.5 md:py-1 lg:py-1.5">
-                    Save $32
+                    Save $88
                   </div>
                 </div>
 
@@ -1246,7 +1246,7 @@ function App() {
                       CAD
                     </span>
                     <span className="font-bold text-2xl sm:text-3xl md:text-5xl lg:text-6xl">
-                      119.99
+                      79.99
                     </span>
                     <span className="text-xs sm:text-sm md:text-base lg:text-lg">
                       / yearly
