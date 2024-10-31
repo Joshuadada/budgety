@@ -149,7 +149,7 @@ function App() {
             </div>
 
             <div className="bg-[#FFFDF2] border border-[#D7D5C1] rounded-lg sm:rounded-xl md:rounded-2xl lg:rounded-3xl overflow-hidden">
-              <img src={Sect2Img2} className="w-full" alt="" />
+              <img src={Sect2Img2} className="w-full" />
               <div className="py-3 sm:py-4 md:py-5 lg:py-6 xl:py-7 px-7 sm:px-8 md:px-9 lg:px-10 xl:px-11">
                 <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-[#1C1C40] font-semibold font-camptonSemibold">
                   Get personalized financial insights and advice with our AI
